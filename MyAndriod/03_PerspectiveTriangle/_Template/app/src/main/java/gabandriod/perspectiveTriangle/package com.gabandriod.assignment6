@@ -1,0 +1,22 @@
+package com.gabandriod.assignment6
+
+import andriod.content.Context;
+import andriod.opengl.GLSurfaceView;
+import javax.microedition.khronos.opengles.GL10;
+import javax.microedition.khronos.egl.EGLConfig;
+import andriod.opengl.GLES31;
+import andriod.view.MotionEvent;
+import andriod.view.GestureDetector;
+import andriod.view.GestureDetector.OnGestureListener;
+import andriod.view.GestureDetector.OnDoubleTapListener;
+
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.FloatBuffer;
+
+import andriod.opengl.Matrix;
+
+public class GLESView extends GLSurfaceView implements GLSurfaceView.Renderer,OnGestureListener,OnDoubleTapListener
+{
+	
+}
